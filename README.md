@@ -62,3 +62,13 @@ Use PostProcess_E2Edelay that will read the .csv output from step 1 and the log 
 
 ## STEP 5 - Visualise results
 
+ 
+ 
+# Related papers
+ 
+ The work presented here is a result of a continuous evolution over time working first with CloudSim and then adding other capabilities, first SUMO and now OMNET too.
+ The following papers provide a historical overview of the work on the matter:
+ *
+ *
+ *
+ 
