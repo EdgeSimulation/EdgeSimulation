@@ -15,8 +15,8 @@ where
     * 0 = 4 CPU cores, 8 GB RAM, 1 Gbps net card, 100 GB storage
     * 1 = 6 CPU cores, 12 GB RAM, 1 Gbps net card, 100 GB storage
 * PLACEMENT - placement policy is community based with second layer of optimisation that can be 
-    * server consolidation (sc) or 
-    * load balancing (lb)
+    * sc - server consolidation (sc) 
+    * lb - load balancing
 * MIGRATION - migration policy is community based with second layer of optimisation that can be 
     * sc-mad - server consolidatio with Median Absolute Deviation
     * lb-mad - load balancing with Median Absolute Deviation
