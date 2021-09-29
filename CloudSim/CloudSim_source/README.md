@@ -10,9 +10,15 @@ If you want to merge the changes with other changes you have made, you will need
 The main changes include:
 * combined network/power datacentre that enables working with networking and power characteristics at the same time
     * location: ```modules/cloudsim/src/main/java/org.cloudbus.cloudsim.network_power.datacenter```
-* new policies for VM placement
-* new policies for VM migration
-* new example scenario setup
-* changes that enable a service to be started and ended at a given specific time
-* changes made to use up the network bandwidth during the migration process
-* bug fixes
+    * includes: 
+        * new policies for VM placement and migration:
+        * ```Network_PowerVmMigrationPolicyFogCommunityBased.java```
+        * ```Network_PowerVmMigrationPolicyFogPredictiveCommunityBased.java```
+        * ```OptimVMAllocationPolicy_FogCommunityBased_LB_SC.java```
+* new example scenario setup in ```org.cloudbus.cloudsim.examples.network.datacenter```
+    * ```Test_FatTree_Example_Power_FogPredictiveCommunityMigration_SUMO.java```
+    * ```Test_FatTree_Example_Power_FogCommunityMigration_SUMO.java``` 
+   * ```Test_FatTree_Example_Power_FogCommunityMigration.java```
+* changes in a number of original CloudSim files that enable a service to be started and ended at a given specific time
+* changes in a number of original CloudSim files made to use up the network bandwidth during the migration process
+* bug fixes in a number of original CloudSim files
