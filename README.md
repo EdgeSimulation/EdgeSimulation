@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 You can use https://demo.hedgedoc.org/ to create the content of the readme file, once you are done just copy paste it from there or upload the md file
 
-
+ 
 HEADER COMMENTS
 //
 // Copyright (C) [year] by [copyright holders <email>]
