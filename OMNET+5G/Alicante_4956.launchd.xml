@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- debug config -->
+<launch>
+	<copy file="Alicante_centro_ciudad.net.xml" />
+	<copy file="Alicante_4956_routes-rou.xml" />
+	<copy file="Alicante.poly.xml" />
+	<copy file="Alicante_4956.sumo.cfg" type="config" />
+</launch>
+
