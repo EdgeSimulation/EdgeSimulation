@@ -2,7 +2,7 @@
 
 This repository provides the tools needed to create edge computing simulations in a defined urban area where 5G infrastructure is placed.
 For these purposes a combination of the 5G enabled OMNeT++ simulator together with an extended for edge computing CloudSim simulator is used.
-In addition there are several Jupyter notebooks that help connect these simulators together and manage the pre and post data processing.
+In addition there are several Jupyter Notebooks that help connect these simulators together and manage the pre and post data processing.
 
 The complete workflow with all the steps needed to create, run and post process a simulation is provided below.
 In the different folders of the repository there are separate README files that describe how to use the different parts of the simulation tools. 
@@ -11,19 +11,20 @@ In the different folders of the repository there are separate README files that 
 
 # Simulation workflow
 
-## STEP 1 - Run OMNET
+## STEP 1 - Run OMNeT++
 
-how to run OMNET
+The definition of the area that is simulated with the number of mobile users and their mobility patterns, and the 5G infrastructure (location of base stations and their characteristics) is made in OMNeT++ that is augmented with a 5G module. The information about the urban area is taken from OpenStreetMaps, and fed into SUMO that is part of OMNeT++ and is in charge of the mobility of the mobile nodes.
+Learn how to run an OMNeT++ 5G simulation by reading the README.md file that is located in the OMNET folder. Once you setup and run the simulation, the output log file is used as an input to the next step.
 
-## STEP 2 - Process OMNET log file
+## STEP 2 - Process OMNeT++ log file
 
-The OMNET log file which is the output of the OMNET simulation is used as input for the ```JupyterNotebooks/MobileHandover_and_Delay``` jupyter notebook that analyses the delay and handover information and generates consolidated delay ```.csv``` output and initial placement and migration ```.txt``` files needed for CloudSim.
+The OMNET log file which is the output of the OMNeT++ simulation is used as input for the ```JupyterNotebooks/MobileHandover_and_Delay``` jupyter notebook that analyses the delay and handover information and generates consolidated delay ```.csv``` output and initial placement and migration ```.txt``` files needed for CloudSim.
 
 Note: you may need to adjust the location of the log files relative to the jupyter notebook.
 
 ## STEP 3 - Run CloudSim
 
-The initial placement and migration txt files obtained from the jupyter notebook should be placed in a ```/log``` folder located together with the ```CloudSim/1s_CloudSimSUMORun.jar```
+The initial placement and migration txt files obtained from the Jupyter Notebook should be placed in a ```/log``` folder located together with the ```CloudSim/1s_CloudSimSUMORun.jar```
 
 The CloudSim simulation can be started using the following notation:
 ```java -jar 1s_CloudSimSUMORun.jar HOSTS TYPE PLACEMENT MIGRATION SERVICES initialPositioning.txt migrations.txt```
