@@ -14,7 +14,7 @@ In the different folders of the repository there are separate README files that 
 ## STEP 1 - Run OMNeT++
 
 The definition of the area that is simulated with the number of mobile users and their mobility patterns, and the 5G infrastructure (location of base stations and their characteristics) is made in OMNeT++ that is augmented with a 5G module. The information about the urban area is taken from OpenStreetMaps, and fed into SUMO that is part of OMNeT++ and is in charge of the mobility of the mobile nodes.
-Learn how to run an OMNeT++ 5G simulation by reading the README.md file that is located in the OMNET folder. Once you setup and run the simulation, the output log file is used as an input to the next step.
+Learn how to run an OMNeT++ 5G simulation by reading the README.md file that is located in the OMNET+5G folder. Once you setup and run the simulation, the output log file is used as an input to the next step.
 
 ## STEP 2 - Process OMNeT++ log file
 
