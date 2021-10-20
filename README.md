@@ -1,37 +1,15 @@
-### Hi there 👋
+# Mobile edge computing simulation in 5G environment
 
-<!--
-**EdgeSimulation/EdgeSimulation** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repository provides the tools needed to create edge computing simulations in a defined urban area where 5G infrastructure is placed.
+For these purposes a combination of the 5G enabled OMNeT++ simulator together with an extended for edge computing CloudSim simulator is used.
+In addition there are several Jupyter notebooks that help connect these simulators together and manage the pre and post data processing.
 
-Here are some ideas to get you started:
+The complete workflow with all the steps needed to create, run and post process a simulation is provided below.
+In the different folders of the repository there are separate README files that describe how to use the different parts of the simulation tools. 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 
-You can use https://demo.hedgedoc.org/ to create the content of the readme file, once you are done just copy paste it from there or upload the md file
-
- 
-HEADER COMMENTS
-//
-// Copyright (C) [year] by [copyright holders <email>]
-// This code is licensed under a Creative Commons Attribution 4.0 International License. (see LICENSE.txt for details)
-//
-// General Description - what is it used for, how it works
-//
-[code starts here]
- 
-
-E2E simulation workflow
 
 # Simulation workflow
-
 
 ## STEP 1 - Run OMNET
 
