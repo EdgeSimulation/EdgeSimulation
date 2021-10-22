@@ -25,6 +25,6 @@ For the example configuration of 4956 cars in a 10000 seconds simulation, the co
 
 In order to obtain delay metrics of the access network over the simulation time, we have modified the configuration of the ```rlcDelayDl``` statistical variable in the code file ```LteRlc.ned``` of Deinlein's version of the SimuLTE library (http://www.ltesimulator.com/). The change is to get Radio Link Control (RLC) delay values along the simulation time, instead of obtaining a scalar delay performance value at the end of the simulation. The modified code of ```LteRlc.ned``` can be found in this repository.
 
-OMNeT++ executions have been called by using this command at the UrbanALC project directory:
+OMNeT++ executions are called by using this command at the UrbanALC project directory being ```VideoDL_4956``` the path where the output files are left:
 
 ```./UrbanALC -m -u Cmdenv -c VideoDL_4956 -n .:../inet/src:../inet/examples:../inet/tutorials:../inet/showcases:../lteNR/simulationsNR:../lteNR/src/common:../lteNR/src/corenetwork:../lteNR/src/epc:../lteNR/src/nr/apps:../lteNR/src/nr/common:../lteNR/src/nr/corenetwork:../lteNR/src/nr/epc:../lteNR/src/nr/stack:../lteNR/src/nr/world:../lteNR/src/stack:../lteNR/src/world:../lteNR/src/x2:../veins/examples/veins:../veins/src/veins:../veins_inet3/src/veins_inet:../veins_inet3/examples/veins_inet --image-path=../inet/images:../lteNR/images:../veins/images:../veins_inet3/images -l ../inet/src/INET -l ../veins/src/veins -l ../veins_inet3/src/veins_inet omnetpp.ini ```
