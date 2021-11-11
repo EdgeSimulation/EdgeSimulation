@@ -17,9 +17,6 @@
 // along with this program; if not, see <http://www.gnu.org/licenses/>.
 //
 
-//package nr.simulationsNR.Urban;
-package UrbanALC;
-
 import inet.node.ethernet.Eth10G;
 
 import inet.networklayer.configurator.ipv4.IPv4NetworkConfigurator;
