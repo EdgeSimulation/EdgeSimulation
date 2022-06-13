@@ -41,7 +41,7 @@ Note: you may need to adjust the location of the log files relative to both jupy
 
 ## STEP 5 - Process e2e delay
 
-Use PostProcess_E2Edelay that will read the .csv output from step 1 and the [CHANGE .csv output file of step 4] log file output from CloudSim and calculate the end to end delay from service to user. Two output files will be created:
+Use ```PostProcess_E2Edelay``` that will read the .csv output from step 1 and the [CHANGE .csv output file of step 4] log file output from CloudSim and calculate the end to end delay from service to user. Two output files will be created:
 * a detailed information about e2e delay
 * binned e2e delay that is averaged over a given period of time 
 
