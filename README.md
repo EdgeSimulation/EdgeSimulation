@@ -57,10 +57,10 @@ Binned e2e delay boxplot figures  are created with the```JupyterNotebooks/e2eDel
  
  The work presented here is a result of a continuous evolution over time working first with CloudSim and then adding other capabilities, first SUMO and now OMNET too.
  The following papers provide a historical overview of the work on the matter:
- 
- * Filiposka, Sonja, Anastas Mishev, and Katja Gilly. "Mobile‐aware dynamic resource management for edge computing." Transactions on Emerging Telecommunications Technologies 30, no. 6 (2019): e3626. - introducing dynamic edge services placement and migration policies
-* Gilly, Katja, Sonja Filiposka, and Salvador Alcaraz. "Predictive Migration Performance in Vehicular Edge Computing Environments." Applied Sciences 11, no. 3 (2021): 944. - introducing predictive placement and migration policies in CloudSim
-* Gilly, Katja, Salvador Alcaraz, Noura Aknin, Sonja Filiposka, and Anastas Mishev. "Modelling edge computing in urban mobility simulation scenarios." In 2020 IFIP Networking Conference (Networking), pp. 539-543. IEEE, 2020. - introducing an edge simulation environment by combining CloudSim and SUMO, w/o mobile communication
-* Deinlein, Thomas, Reinhard German, and Anatoli Djanatliev. "5G-Sim-V2I/N: Towards a Simulation Framework for the Evaluation of 5G V2I/V2N Use Cases." In 2020 European Conference on Networks and Communications (EuCNC), pp. 353-357. IEEE, 2020. - introducing the last piece of the puzzle, the 5G module in OMNeT++
- 
- 
+
+* Katja Gilly, Cristina Bernad, Pedro J. Roig, Salvador Alcaraz, Sonja Filiposka,"End-to-end simulation environment for mobile edge computing", Simulation Modelling Practice and Theory, Volume 121, 2022, 102657,
+ISSN 1569-190X, https://doi.org/10.1016/j.simpat.2022.102657.
+* Sonja Filiposka, Anastas Mishev, and Katja Gilly. "Mobile‐aware dynamic resource management for edge computing." Transactions on Emerging Telecommunications Technologies 30, no. 6 (2019): e3626. - introducing dynamic edge services placement and migration policies
+* Katja Gilly, Sonja Filiposka, and Salvador Alcaraz. "Predictive Migration Performance in Vehicular Edge Computing Environments." Applied Sciences 11, no. 3 (2021): 944. - introducing predictive placement and migration policies in CloudSim
+* Katja Gilly, Salvador Alcaraz, Noura Aknin, Sonja Filiposka, and Anastas Mishev. "Modelling edge computing in urban mobility simulation scenarios." In 2020 IFIP Networking Conference (Networking), pp. 539-543. IEEE, 2020. - introducing an edge simulation environment by combining CloudSim and SUMO, w/o mobile communication
+* Thomas Deinlein, Reinhard German, and Anatoli Djanatliev. "5G-Sim-V2I/N: Towards a Simulation Framework for the Evaluation of 5G V2I/V2N Use Cases." In 2020 European Conference on Networks and Communications (EuCNC), pp. 353-357. IEEE, 2020. - introducing the last piece of the puzzle, the 5G module in OMNeT++
